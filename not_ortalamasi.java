@@ -32,6 +32,9 @@ public class not_ortalamasi {
         double sonuc = toplam / 6.0;
         System.out.println("Ortalamanız: " + sonuc);
 
+        String result = (sonuc >= 60) ? "Geçti" : "Kaldı";
+        System.out.println(result);
+
         //boolean ile koşullu ifade kullanarak 60 ve üzerine geçti altına kaldı yazdıracağız
         //if else kullanmamalıyız
     }
