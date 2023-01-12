@@ -18,5 +18,6 @@ public class mantiksal_operatorler {
 
         d = (a == b) ? 2 : 3;
         System.out.println(d);
+
     }
 }
