@@ -1,26 +1,17 @@
+package giris;
+
 import java.util.Scanner;
 public class basamak_toplami {
     public static void main(String[] args) {
+        int sayi, topla;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Sayı Giriniz: ");
-        int number = input.nextInt();
+        System.out.print("Bir sayı giriniz: ");
+        sayi = input.nextInt();
 
-        int basSayisi=0, tempNumber = number, basamakDegeri, result=0;
-
-        while(tempNumber != 0 ){
-            tempNumber /=10;
-            basSayisi++;
-        }
-        tempNumber = number;
-        System.out.println("basamak sayısı "+basSayisi);
-
-        while (tempNumber != 0){
-            basamakDegeri = tempNumber % 10;
-            result += basamakDegeri;
-            tempNumber /= 10;
-        }
-        System.out.println(result);
-
+       // while(sayi != 0){
+        //   topla = sayi/10;
+        //}
+        //System.out.println(topla);
     }
 }
